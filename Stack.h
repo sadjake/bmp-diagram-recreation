@@ -1,5 +1,5 @@
-// #ifndef STACK_H
-// #define STACK_H
+#ifndef STACK_H
+#define STACK_H
 
 #include "LinkedList.h"
 
@@ -29,4 +29,4 @@ class Stack {
         ~Stack();
 };
 
-// #endif // STACK_H
+#endif // STACK_H
