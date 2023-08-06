@@ -1,5 +1,5 @@
-// #ifndef LINKEDLIST_H
-// #define LINKEDLIST_H
+#ifndef LINKEDLIST_H
+#define LINKEDLIST_H
 
 typedef struct Node {
     int data;
@@ -24,4 +24,4 @@ class LinkedList {
         int length() const;
 };
 
-//#endif // LINKEDLIST_H
+#endif // LINKEDLIST_H
