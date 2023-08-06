@@ -318,9 +318,4 @@ ostream& operator << (ostream& os, const Triangle& myTriangle)
     return os;
 }
 
-//comment out this part
-// bool Triangle::operator>(const Triangle& Triangle2) const
-// {
-//     return (sideLength > Triangle2.sideLength);
-// }
-// aug
+// aug 4
