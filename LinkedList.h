@@ -24,4 +24,4 @@ class LinkedList {
         int length() const;
 };
 
-#endif // LINKEDLIST_H
+#endif //LINKEDLIST_H
