@@ -94,3 +94,5 @@ int LinkedList::length() const {
     }
     return count;
 }
+
+// aug g
