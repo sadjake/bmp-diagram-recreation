@@ -155,6 +155,7 @@ void Gasket::SetXLocation(const int xLocationValue)
 	}
 
 	listOfSubTriangles[0] = Triangle(xLocation, yLocation, sideLength, gasketColour);
+	
 	for (int k = 1; k <= iterations; k++) {
 		GasketDivide(listOfSubTriangles, lenSubTriList / 3);
 	}
