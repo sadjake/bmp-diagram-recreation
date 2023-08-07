@@ -28,7 +28,6 @@ Gasket::Gasket(int iterationsValue, int xLocationValue, int yLocationValue, int 
 	sideLength = sideLengthValue;
 
 	if (!(xLocation >= 0 && xLocation < pageWidth && yLocation >= 0 && yLocation < pageLength)) {
-		//cout << "TRIANGLE BOTH xLocation AND yLocation OFF THE PAGE: plotted " << triangColour << endl;
 		cout << "x position of Gasket object is off the page" << endl;
 		cout << "x position and y position have been reset to 0" << endl;
 		xLocation = 0;
