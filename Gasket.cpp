@@ -255,3 +255,5 @@ void Gasket::GasketPrint() {
 		listOfSubTriangles[k].TrianglePrint();
 	}
 }
+
+// aug h
