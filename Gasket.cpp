@@ -165,7 +165,6 @@ void Gasket::SetYLocation(const int yLocationValue) {
 	yLocation = yLocationValue;
 
 	if (!(xLocation >= 0 && xLocation < pageWidth && yLocation >= 0 && yLocation < pageLength)) {
-		//cout << "TRIANGLE BOTH xLocation AND yLocation OFF THE PAGE: plotted " << triangColour << endl;
 		cout << "x position = " << xLocation << " and / or y position = " << yLocation << " of Triangle object is off the page" << endl;
 		xLocation = 0;
 		yLocation = 0;
