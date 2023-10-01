@@ -1,1 +1,3 @@
-# ASS3FINALDRAFT
+# Recreation of the diagrams in the bmp files
+
+# using C++
